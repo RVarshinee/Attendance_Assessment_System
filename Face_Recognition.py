@@ -31,7 +31,7 @@ bg_label=tk.Label(window,image=window.faceimg4)
 bg_label.place(x=0,y=130,width=1530,height=810)
 
 #Title
-message = tk.Label(window, text="Attendance Assessment System using Face Recognition",bg="green",fg="White",width=60,height=3,font=('times',30,'italic bold underline'))
+message = tk.Label(window, text="Attendance Assessment System using Face Recognition\nBy R.Varshinee , B.E CSE , Global Academy of Technology , Bangalore ",bg="green",fg="White",width=55,height=3,font=('times',30,'bold'))
 message.place(x=100,y=20)
 
 #Student Attendance
@@ -52,7 +52,7 @@ def students():
 
 
     #Title
-    message = tk.Label(window, text="Student Attendance Assessment System",bg="green",fg="White",width=60,height=3,font=('times',30,'italic bold underline'))
+    message = tk.Label(window, text="Student Attendance Assessment System",bg="green",fg="White",width=55,height=3,font=('times',30,'bold'))
     message.place(x=100,y=20)
 
     #ID Entry
@@ -341,7 +341,7 @@ def staff():
 
 
     #Title
-    message = tk.Label(window, text="Staff Attendance Assessment System",bg="green",fg="White",width=60,height=3,font=('times',30,'italic bold underline'))
+    message = tk.Label(window, text="Staff Attendance Assessment System",bg="green",fg="White",width=55,height=3,font=('times',30,'bold'))
     message.place(x=100,y=20)
 
     #ID Entry
