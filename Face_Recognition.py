@@ -151,7 +151,7 @@ def students():
                         cv2.rectangle(image,(x,y),(x+w,y+h),(255,0,0),2)
                         sampleNum=sampleNum+1 # incrementing sample number
                         # saving the captured face in the dataset folder TrainingImage
-                        cv2.imwrite("C:/Users/RAMKUMAR/Desktop/Attendance Assessment System/Students/TrainingImages\ "+name +"."+Id + '.' +subject+"."+str(sampleNum) +".png",gray[y:y+h,x:x+h])
+                        cv2.imwrite("C:/Users/RAMKUMAR/Desktop/Attendance Assessment System/Students/TrainingImages\ "+name +"."+Id + '.' +stream_subject+"."+str(sampleNum) +".png",gray[y:y+h,x:x+h])
                         # display the frame
                         cv2.imshow('frame',image)
                     if cv2.waitKey(100) & 0xFF == ord('q'):  # wait for 100 miliseconds
