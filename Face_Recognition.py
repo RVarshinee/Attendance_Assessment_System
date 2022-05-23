@@ -294,31 +294,31 @@ def students():
                 
                 
     #Clear button for ID
-    clearButton=tk.Button(window,text="Clear",command=clear,fg="black",bg="lightpink",width=20,height=2,activebackground="Red",font=('times',15,'bold'))
+    clearButton=tk.Button(window,text="Clear",command=clear,fg="black",bg="lightpink",width=20,height=2,activebackground="green",font=('times',15,'bold'))
     clearButton.place(x=950,y=210)
 
     #Clear button for Name
-    clearButton2=tk.Button(window,text="Clear",command=clear2,fg="black",bg="lightpink",width=20,height=2,activebackground="Red",font=('times',15,'bold'))
+    clearButton2=tk.Button(window,text="Clear",command=clear2,fg="black",bg="lightpink",width=20,height=2,activebackground="green",font=('times',15,'bold'))
     clearButton2.place(x=950,y=310)
 
     #Clear button for Subject
-    clearButton2=tk.Button(window,text="Clear",command=clear3,fg="black",bg="lightpink",width=20,height=2,activebackground="Red",font=('times',15,'bold'))
+    clearButton2=tk.Button(window,text="Clear",command=clear3,fg="black",bg="lightpink",width=20,height=2,activebackground="green",font=('times',15,'bold'))
     clearButton2.place(x=950,y=410)
 
     #Button for taking images
-    takeImg=tk.Button(window,text="Take Images",command=TakeImages,fg="black",bg="lightpink",width=20,height=3,activebackground="Red",font=('times',15,'bold'))
+    takeImg=tk.Button(window,text="Take Images",command=TakeImages,fg="black",bg="lightpink",width=20,height=3,activebackground="green",font=('times',15,'bold'))
     takeImg.place(x=90,y=600)
 
     #Button for training images
-    trainImg=tk.Button(window,text="Train Images",command=TrainImages,fg="black",bg="lightpink",width=20,height=3,activebackground="Red",font=('times',15,'bold'))
+    trainImg=tk.Button(window,text="Train Images",command=TrainImages,fg="black",bg="lightpink",width=20,height=3,activebackground="green",font=('times',15,'bold'))
     trainImg.place(x=390,y=600)
 
     #Button for tracking images
-    trackImg=tk.Button(window,text="Track Images",command=TrackImages,fg="black",bg="lightpink",width=20,height=3,activebackground="Red",font=('times',15,'bold'))
+    trackImg=tk.Button(window,text="Track Images",command=TrackImages,fg="black",bg="lightpink",width=20,height=3,activebackground="green",font=('times',15,'bold'))
     trackImg.place(x=690,y=600)
 
     #Button to quit
-    quitWindow=tk.Button(window,text="Quit",command=window.destroy,fg="black",bg="lightpink",width=20,height=3,activebackground="Red",font=('times',15,'bold'))
+    quitWindow=tk.Button(window,text="Quit",command=window.destroy,fg="black",bg="lightpink",width=20,height=3,activebackground="green",font=('times',15,'bold'))
     quitWindow.place(x=990,y=600)
 
 #Staff Attendance
@@ -356,7 +356,7 @@ def staff():
     txt2=tk.Entry(window,width=20,bg="lightpink",fg="black",font=('times 25 bold'))
     txt2.place(x=550,y=310)
 
-    #Subject Entry
+    #Designation Entry
     lbl3=tk.Label(window,text="Enter Designation",width=20,height=2,fg="black",bg="lightpink",font=('times',15,'bold'))
     lbl3.place(x=200,y=400)
     txt3=tk.Entry(window,width=20,bg="lightpink",fg="black",font=('times 25 bold'))
@@ -570,31 +570,31 @@ def staff():
                 message1.configure(text=res)
 
     #Clear button for ID
-    clearButton=tk.Button(window,text="Clear",command=clear,fg="black",bg="lightpink",width=20,height=2,activebackground="Red",font=('times',15,'bold'))
+    clearButton=tk.Button(window,text="Clear",command=clear,fg="black",bg="lightpink",width=20,height=2,activebackground="green",font=('times',15,'bold'))
     clearButton.place(x=950,y=210)
 
     #Clear button for Name
-    clearButton2=tk.Button(window,text="Clear",command=clear2,fg="black",bg="lightpink",width=20,height=2,activebackground="Red",font=('times',15,'bold'))
+    clearButton2=tk.Button(window,text="Clear",command=clear2,fg="black",bg="lightpink",width=20,height=2,activebackground="green",font=('times',15,'bold'))
     clearButton2.place(x=950,y=310)
 
-    #Clear button for Subject
-    clearButton2=tk.Button(window,text="Clear",command=clear3,fg="black",bg="lightpink",width=20,height=2,activebackground="Red",font=('times',15,'bold'))
+    #Clear button for Designation
+    clearButton2=tk.Button(window,text="Clear",command=clear3,fg="black",bg="lightpink",width=20,height=2,activebackground="green",font=('times',15,'bold'))
     clearButton2.place(x=950,y=410)
 
     #Button for taking images
-    takeImg=tk.Button(window,text="Take Images",command=TakeImages,fg="black",bg="lightpink",width=20,height=3,activebackground="Red",font=('times',15,'bold'))
+    takeImg=tk.Button(window,text="Take Images",command=TakeImages,fg="black",bg="lightpink",width=20,height=3,activebackground="green",font=('times',15,'bold'))
     takeImg.place(x=90,y=600)
 
     #Button for training images
-    trainImg=tk.Button(window,text="Train Images",command=TrainImages,fg="black",bg="lightpink",width=20,height=3,activebackground="Red",font=('times',15,'bold'))
+    trainImg=tk.Button(window,text="Train Images",command=TrainImages,fg="black",bg="lightpink",width=20,height=3,activebackground="green",font=('times',15,'bold'))
     trainImg.place(x=390,y=600)
 
     #Button for tracking images
-    trackImg=tk.Button(window,text="Track Images",command=TrackImages,fg="black",bg="lightpink",width=20,height=3,activebackground="Red",font=('times',15,'bold'))
+    trackImg=tk.Button(window,text="Track Images",command=TrackImages,fg="black",bg="lightpink",width=20,height=3,activebackground="green",font=('times',15,'bold'))
     trackImg.place(x=690,y=600)
 
     #Button to quit
-    quitWindow=tk.Button(window,text="Quit",command=window.destroy,fg="black",bg="lightpink",width=20,height=3,activebackground="Red",font=('times',15,'bold'))
+    quitWindow=tk.Button(window,text="Quit",command=window.destroy,fg="black",bg="lightpink",width=20,height=3,activebackground="green",font=('times',15,'bold'))
     quitWindow.place(x=990,y=600)
 
 
