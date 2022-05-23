@@ -599,15 +599,15 @@ def staff():
 
 
 #Student Button
-takeImg=tk.Button(window,text="Students",command=students,fg="black",bg="aquamarine1",width=35,height=3,activebackground="Red",font=('times',15,'bold'))
+takeImg=tk.Button(window,text="Students",command=students,fg="black",bg="thistle1",width=35,height=3,activebackground="lightpink",font=('times',15,'bold'))
 takeImg.place(x=150,y=300)
 
 #Staff Button
-trainImg=tk.Button(window,text="Staff",command=staff,fg="black",bg="aquamarine1",width=35,height=3,activebackground="lightpink",font=('times',16,'bold'))
+trainImg=tk.Button(window,text="Staff",command=staff,fg="black",bg="thistle1",width=35,height=3,activebackground="lightpink",font=('times',16,'bold'))
 trainImg.place(x=150,y=450)
 
 #Exit Button
-Exit=tk.Button(window,text="Exit",command=window.destroy,fg="black",bg="aquamarine1",width=35,height=3,activebackground="lightpink",font=('times',16,'bold'))
+Exit=tk.Button(window,text="Exit",command=window.destroy,fg="black",bg="thistle1",width=35,height=3,activebackground="lightpink",font=('times',16,'bold'))
 Exit.place(x=150,y=600)
 
 
