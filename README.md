@@ -2,13 +2,13 @@
 Face Recognition based Attendance Assessment System to ensure proper identity of student and staff
 
 Steps to run the project:
-1. Install the following python modules
-    tkinter
-    numpy
-    opencv
-    pandas
-    arrow
-    matplotlib
+1. Install the following python modules:
+     tkinter, 
+     numpy, 
+     opencv, 
+     pandas, 
+     arrow,
+     matplotlib
     
 2. Copy and paste the code in Face_Recognition.py in your Python IDE
 
