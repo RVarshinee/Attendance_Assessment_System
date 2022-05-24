@@ -10,7 +10,7 @@ Steps to run the project:
      arrow,
      matplotlib
     
-2. Copy and paste the code in Face_Recognition.py in your Python IDE
+2. Copy the code from Face_Recognition.py and paste it in your Python IDE
 
 3. Download the background image (i.e, the file named as face1.jpg) that is provided in the repository and in Face_Recognition.py in line number 28 update the absolute    path of the downloaded image.
 
