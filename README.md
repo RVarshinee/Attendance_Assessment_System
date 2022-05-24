@@ -22,7 +22,7 @@ Steps to run the project:
 
 7. Create a folder named Staff and within the folder create the subfolders Attendance , StaffDetails , TrainingImageLabel , TrainingImages on your computer and in        Face_Recognition.py in line number 464 and 508 update the absolute path of the TrainingImages folder. Create a folder named Students and and within the folder          create the subfolders Attendance , StaffDetails , TrainingImageLabel , TrainingImages on your computer and in Face_Recognition.py in line number 155 and 200 update    the absolute path of the TrainingImages folder.
 
-8. In StaffDetails folder create an excel file and save it as staffDetails.csv and in StudentDetails folder create an excel file and save it as studentDetails.csv and    name the cell in first row and first column as 'Id' and name the cell in first row and second column as 'Name'. In staffDetails.csv name the cell in first row and      third column as 'Designation'. In studentDetails.csv name the cell in the first row and third column as 'Subject'  
+8. In StaffDetails folder create an excel file and save it as staffDetails.csv and in StudentDetails folder create an excel file and save it as studentDetails.csv and    in both the csv files name the cell in first row and first column as 'Id' and name the cell in first row and second column as 'Name'. In staffDetails.csv name the      cell in first row and third column as 'Designation'. In studentDetails.csv name the cell in the first row and third column as 'Subject'  
 
 9. In Face_Recognition.py in line number 166 and line number 244 update the absolute path of studentDetails.csv and in line number 475 and line number 554 update the      absolute path of staffDetails.csv
 
